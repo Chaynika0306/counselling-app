@@ -1,16 +1,100 @@
-# React + Vite
+🧠 Counselling Appointment Booking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Counselling Appointment Booking Web Application where users can book sessions with a counsellor, view available time slots, and manage their appointments.
 
-Currently, two official plugins are available:
+This project is built using React, Node.js, Express, and MongoDB.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features:
 
-## React Compiler
+🔐 User Authentication (Login / Signup)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📅 Book a Counselling Session
 
-## Expanding the ESLint configuration
+⏰ View Available Time Slots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📧 Email Confirmation after booking
+
+⭐ Ratings and Feedback System
+
+📱 Responsive Design (Mobile + Desktop)
+
+🛠 Tech Stack
+Frontend:
+React.js
+CSS
+React Router
+
+Backend:
+Node.js
+Express.js
+MongoDB
+Mongoose
+
+Other Tools:
+Nodemailer (for email notifications)
+JWT Authentication
+
+📂 Project Structure
+counselling-app
+│
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── utils
+│   └── server.js
+│
+├── frontend
+│   ├── components
+│   ├── pages
+│   ├── utils
+│   └── App.js
+│
+└── README.md
+
+⚙️ Installation
+
+1️⃣ Clone the repository
+git clone https://github.com/Chaynika0306/counselling-app.git
+
+2️⃣ Install dependencies
+
+Backend:
+cd backend
+npm install
+
+Frontend:
+cd frontend
+npm install
+
+3️⃣ Create .env file
+Inside backend folder:
+
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+EMAIL_USER=your_email
+EMAIL_PASS=your_password
+
+4️⃣ Run the project
+
+Backend:
+node server.js
+
+Frontend:
+npm run dev
+
+🌐 Future Improvements
+
+Online payment integration
+Video counselling sessions
+Admin dashboard
+Appointment reminders
+
+👨‍💻 Author:
+Chaynika Vyas
+
+GitHub:
+https://github.com/Chaynika0306
+
+⭐ Support
+If you like this project, please ⭐ the repository on GitHub.
